@@ -1,0 +1,409 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    overflow: hidden;
+}
+
+/*
+CABEÇALHO
+*/
+.center{
+    max-width: 1100px;
+    padding: 0 2%;
+    margin: 0 auto;
+}
+
+.clear{clear: both;}
+
+/*bloco de cor*/
+header{
+    background-color: #3b5998;
+    padding: 18px 0;
+}
+
+/*facebook text*/
+.logo{
+    float: left;
+    color: white;
+}
+
+.logo h2{
+    font-size: 40px;
+}
+
+/*fomulario de login*/
+.form-login{
+    float: right;
+}
+
+.form-login, .form-element{
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.form-element{
+    color: white;
+    font-size: 14px;
+}
+
+.forg{
+    display: block;
+    position: absolute;
+    font-size: 12px;
+    color: #aac1f3;
+    cursor: pointer;
+}
+
+.form-element input[type=email],
+.form-element input[type=password]{
+    margin-top: 4px;
+    padding: 2px 4px;
+    border: 1px solid #283c66;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 150px;
+}
+
+.form-element input[type=submit]{
+    cursor: pointer;
+    border: 0;
+    color: white;
+    padding: 3px 5px;
+    background-color: #4868af;
+    border: 1px solid #344d83;
+    font-weight: bold;
+}
+
+.form-element input[type=submit]:hover{
+    background-color: #4361a1;
+}
+
+.form-element input[type=email]:focus,.form-element input[type=password]{
+    outline: 0;
+}
+
+/*
+CONTEUDO MAIN
+*/
+.main{
+    background: linear-gradient(white, #D3D8E8);
+    padding: 40px 0;
+}
+
+.img-world{
+    float: left;
+    width: 57%;
+}
+
+.img-world img{
+    max-width: 100%;
+}
+
+.img-world p{
+    font-weight: bold;
+    font-size: 21px;
+    width: 80%;
+    color: #344d83;
+    float: left;
+}
+
+/*
+FORMULARIO DE ABRIR CONTA
+*/
+
+/*texto*/
+.create-account{
+    width: 35%;
+    float: left;
+    margin-left: 65px;
+    margin-top: -10px;
+}
+
+.create-account h2{
+    color: black;
+    font-size: 36px;
+}
+
+.create-account h3{
+    font-size: 19px;
+    color: rgb(70, 70, 70);
+    margin-top: 8px;
+    font-weight: bold;
+}
+
+/*inputs text*/
+.form-account{
+    margin-top: 15px;
+    width: 100%;
+}
+
+.w50{
+    width: 50%;
+    padding: 0 5px;
+    float: left;
+}
+
+.w100{
+    width: 100%;
+    padding: 0 5px;
+    float: left;
+}
+
+.form-account input{
+    width: 100%;
+}
+
+.form-account input[type=email],
+.form-account input[type=text],
+.form-account input[type=password]{
+    height: 40px;
+    margin-top: 8px;
+    border: 1px solid #a3aac2;
+    padding-left: 10px;
+    font-weight: normal;
+    border-radius: 4px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.w100 input[type=email]:focus{
+    outline: 1px solid #a3aac2;
+}
+.w100 input[type=password]:focus{
+    outline: 1px solid #a3aac2;
+}
+.w50 input[type=text]:focus{
+    outline: 1px solid #a3aac2;
+}
+
+/*input birthday*/
+.w100 h3{
+    margin-top: 30px;
+    margin-bottom: 8px;
+    font-size: 21px;
+}
+
+.nascimento{
+    float: left;
+    padding: 5px 3px;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 104px;
+}
+
+
+.nascimento option{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.why{
+    position: absolute;
+    color: #576c97;
+    float: right;
+    max-width: 150px;
+    font-size: 12px;
+    margin-left: 8px;
+    font-weight: bold;
+}
+
+.why:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/*
+SEX
+*/
+
+/*input-radio*/
+.input-radio h2{
+    display: inline-block;
+    font-size: 17px;
+    color: rgb(70, 70, 70);
+}
+
+.input-radio{
+    float: left;
+    margin: 20px 20px;
+}
+
+.input-radio input[type=radio]{
+    width: auto !important;
+    display: inline-block;
+}
+
+/*
+TERMS
+*/
+.terms-policy{
+    font-weight: bold;
+    font-size: 12px;
+    color: #999ca7;
+}
+
+.terms-policy .blue{
+    color: #576c97;
+}
+
+.terms-policy .blue:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/*
+SING UP
+*/
+
+/*input submit*/
+.w100 input[type=submit]{
+    height: 40px;
+    background: linear-gradient(to bottom right,#67ae55, #578843);
+    max-width: 200px;
+    color: white;
+    cursor: pointer;
+    border: 0;
+    font-size: 19px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 1px solid #4a7539;
+    margin: 14px -3px;
+}
+
+.w100 input[type=submit]:hover{
+    background: linear-gradient(to bottom right, #578843, #67ae55);
+}
+
+/*
+CREATE A PAGE
+*/
+
+.w100 .page{
+    display: inline-block;
+    font-weight: bold;
+    font-size: 12px;
+    color: #999ca7;
+    
+}
+
+.page span{
+    color: #576c97;
+}
+
+.page span:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 862px) and (min-width: 769px){
+    
+    html{
+        overflow-y: scroll;
+    }
+    
+
+/*MAIN*/
+    .img-world{
+        float: left;
+        width: 55%;
+        margin-top: 90px;
+    }
+    
+    .img-world p{
+        float: none;
+        text-align: left;
+        margin: 0 auto;
+    }
+
+/*CREATE ACCOUNT*/
+    .create-account{
+        width: 45%;
+        float: none;
+        margin-top: 15px;
+    }
+
+/*BUTTON SIGN UP*/
+    .w100 input[type=submit]{
+        float: none;
+        margin: 14px 25%;
+    }
+}
+
+@media screen and (max-width: 768px){
+    
+    html{
+        overflow-y: scroll;
+    }
+    
+/*HEADER*/
+    .logo{
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .form-login{
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    .form-login, .form-element{
+        display: block;
+        margin-right: 15px;
+    }
+    
+    .form-element{
+        color: white;
+        font-size: 14px;
+    }
+    
+    .forg{
+        display: inline-block;       
+        font-size: 12px;
+        color: #aac1f3;
+        cursor: pointer;
+        margin:0 8px;
+        margin-top: 8px;
+    }
+    
+    .form-element input[type=email],
+    .form-element input[type=password]{
+        margin-top: 4px;
+        padding: 2px 4px;
+        border: 1px solid #283c66;
+        font-family: Arial, Helvetica, sans-serif;
+        max-width: 150px;
+        margin-bottom: 2px;
+    }
+
+    .form-element input[type=submit]{
+        margin-top: 8px;
+    }
+
+/*MAIN*/
+    .img-world{
+        float: none;
+        width: 90%;
+        margin: 0 auto;
+    }
+    
+    .img-world p{
+        float: none;
+        text-align: left;
+        margin: 0 auto;
+    }
+
+/*CREATE ACCOUNT*/
+    .create-account{
+        width: 80%;
+        float: none;
+        margin-top: 15px;
+    }
+
+/*BUTTON SIGN UP*/
+    .w100 input[type=submit]{
+        float: none;
+        margin: 14px 25%;
+    }
+}

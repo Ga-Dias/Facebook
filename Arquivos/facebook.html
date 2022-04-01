@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+    <head>
+        <title>Facebook</title>
+        <meta charset="utf-8" />
+        <meta name="description" content="site do facebook login pagina" />
+        <meta name="keywords" content="site, facebook, login, page" />
+        <meta name="author" content="Gabriel Dias Aurichi" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+        <!-- FONTE -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;700&display=swap" rel="stylesheet">
+        <!--  -->
+        <link href="facebook.css" rel="stylesheet" />
+    </head>
+    
+    <body>
+        <header>
+            <div class="center">
+                
+                <div class="logo">
+                    <h2>facebook</h2>
+                </div><!-- logo -->
+               
+                <form method="post" class="form-login">                  
+                    <div class="form-element">
+                        <p>Email or phone</p>
+                        <input name="email" type="email" />
+                    </div><!-- form-element -->                    
+                    <div class="form-element">
+                        <p>Password</p>
+                        <input name="password" type="password" />
+                        <p class="forg">Forgotten accont?</p><!-- forg -->
+                    </div><!-- form-element -->
+                    <div class="form-element">
+                        <input name="acao" type="submit" value="Log In" />
+                    </div><!-- form-element -->
+                </form><!-- form-login -->
+<div class="clear"></div><!-- clear -->
+            </div><!-- center -->
+        </header>
+
+        <section class="main">
+            <div class="center">
+                <div class="img-world">
+                    <p>Facebook helps you connect and share with the people in your life.</p>
+                    <img src="../imagens/img1.png" />
+                </div><!-- img-world -->
+                    
+                <div class="create-account">
+                    <h2>Create an account</h2>
+                    <h3>It's free and always will be.</h3>
+                    
+                    <form class="form-account">
+                        <div class="w50">
+                            <input type="text" name="name" placeholder="First name" />
+                        </div><!-- w50 -->    
+                        
+                        <div class="w50">
+                            <input type="text" name="surname" placeholder="Surname" />
+                        </div><!-- w50 --> 
+                        
+                        <div class="w100">
+                            <input type="email" name="email" placeholder="Email address" />
+                        </div><!-- w100 -->
+                        
+                        <div class="w100">
+                            <input type="password" name="new-password" placeholder="New Password" />
+                        </div><!-- w100 -->  
+                           
+                        <div class="w100">
+                            <h3>Birthday</h3>
+                            <select name="nascimento-dia" class="nascimento">
+                                <option disabled selected>Day</option>
+                                    <option value="apr">1-5</option>
+                                    <option value="may">6-10</option>
+                                    <option value="june">11-15</option>
+                                    <option value="july">16+</option>
+                            </select>
+                            
+                            <select name="nascimento-mes" class="nascimento">
+                                <option class="date" disabled selected>Month</option>
+                                <option value="4">Apr</option>
+                                <option value="5">May</option>
+                                <option value="6">June</option>
+                                <option value="7">July</option>
+                            </select>
+                                
+                            <select name="nascimento-ano" class="nascimento">
+                                <option disabled selected>Year</option>
+                                    <option value="apr">-1950</option>
+                                    <option value="may">1951 á 2000</option>
+                                    <option value="june">2001 á 2010</option>
+                                    <option value="july">2011+</option>
+                            </select>
+                    
+                            <span class="why">Why do I need to provide my date of birth?</span>
+                        </div><!-- w100 -->
+
+                        <div class="w100">
+                            <div class="input-radio">
+                                <input type="radio" name="sexo" value="female">
+                                <h2>Female</h2>
+                            </div><!-- input-radio -->
+                        
+                            <div class="input-radio">
+                                <input type="radio" name="sexo" value="male">
+                                <h2>Male</h2>
+                            </div><!-- input-radio-->
+                        </div><!-- w100 -->
+<div class="clear"></div><!-- clear -->
+
+                        <div class="w100">
+                            <div class="terms-policy">
+                                <p>By clicking Sing Up, you agree to our<span class="blue"> Terms, Data Policy</span> and<span class="blue"> Cookie Policy.</span> You may receive Email notifications from us and can opt out at any time.</p>
+                            </div><!-- terms-policy -->
+                        </div><!-- w100 -->
+                        <div class="w100">
+                            <input type="submit" name="acao" value="Sign Up" />
+                        </div><!-- w100 -->
+                        
+                        <div class="w100">
+                            <div class="page">
+                                <p><span class="blue">Create a Page</span> for a celebrity, band or business.</p>
+                            </div><!-- page -->
+                        </div><!-- w100 -->
+                    </form><!-- form-account -->
+                </div><!-- create-account -->
+
+<div class="clear"></div><!-- clear -->
+            </div><!-- center -->
+        </section><!-- main -->
+    </body>
+
+</html>
